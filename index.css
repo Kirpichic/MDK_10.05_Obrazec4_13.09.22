@@ -1,0 +1,54 @@
+.osnova{
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    right: 300px;
+    height: 750px;
+    z-index: 1;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgb(0,0,0);
+    z-index: 2;
+}
+footer{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 200px;
+    border: 2px solid rgb(0,0,0);
+    z-index: 2;
+}
+.in{
+    position: absolute;
+    top: 200px;
+    bottom: 200px;
+    width: 100%;
+    height: 550px;
+    z-index: 3;
+}
+.left{
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    border: 2px solid rgb(0,0,0);
+    z-index: 4;
+}
+.content{
+    position: absolute;
+    width: 910px;
+    height: 100%;
+    left: 201px;
+    border: 2px solid rgb(0,0,0);
+    z-index: 4;
+}
+.right{
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    border: 2px solid rgb(0,0,0);
+    right: 0%;
+    z-index: 4;
+}
